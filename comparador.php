@@ -63,7 +63,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>                        
                         <div class="row">                            
                             <div class="col">
-                                <button class="btn btn-outline-primary">Añadir al carrito</button> 
+                                <a href="carrito.php?id=<?= $producto['Cod_producto'] ?>">
+                                    <button class="btn btn-outline-primary">Añadir al carrito</button>
+                                </a> 
                             </div>
                             <div class="col">
                                 <a href="index_productos.php?cat=<?=$producto['Categoria']?>">

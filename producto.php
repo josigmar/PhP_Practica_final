@@ -90,7 +90,9 @@ foreach ($ultimos as $ultimo) {
                         </a>  
                     </div>
                     <div class="col">
-                        <button class="btn btn-outline-primary">Añadir al carrito</button> 
+                        <a href="carrito.php?id=<?= $producto['Cod_producto'] ?>">
+                            <button class="btn btn-outline-primary">Añadir al carrito</button>
+                        </a>                        
                     </div>
                     <div class="col">
                         <?php if ($origen === "inicio") : ?>

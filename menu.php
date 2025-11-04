@@ -27,6 +27,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="login.php"><strong>Acceso privado</strong></a>
                     </li>                
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrito.php"><strong>Comprar</strong></a>
+                    </li>                
                 </ul>
             </div>
         </div>
